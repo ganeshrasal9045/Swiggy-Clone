@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+.navContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(236, 106, 240);
+  border: solid 1px red;
+  margin-top: 5px;
+}
+
+.logo {
+  width: 140px;
+  padding: 0px 10px;
+  border: solid 1px gray;
+}
+
+.navItems {
+  border: solid 1px blue;
+  padding: 0 20px;
+}
+
+.navItems ul {
+  display: flex;
+}
+
+.navItems ul li {
+  font-size: 20px;
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+.main-container {
+  margin: 14px;
+}
+
+.resto-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dynamic-click {
+  text-decoration: none;
+  color: black;
+}
+
+.resto-card {
+  margin: 5px;
+  padding: 8px;
+  width: 320px;
+  background-color: cyan;
+}
+
+.resto-card:hover {
+  border: solid 1px gray;
+  cursor: pointer;
+}
+
+.search {
+  padding: 10px;
+}
+
+.rest-logo {
+  width: 100%;
+}
+
+.filter-btn {
+  margin: 10px;
+  padding: 5px;
+  background-color: #4d044d;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  height: 40vh;
+  width: 50vh;
+  margin: 8px;
+  animation: shimmer 2s infinite linear;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: cyan;
+}
+
+.login {
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+}
+
+.search-box input {
+  margin: 10px 2px 0px 10px;
+  padding: 5px;
+}
+
+.search-btn {
+  padding: 5px;
+  background-color: #4d044d;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.menu-container{
+}
+
+.menu-bar {
+  background-color: #f64f59;
+  text-align: center;
+  margin: 20px 50px;
+  padding: 5px;
+}
+
+.recommended-items {
+    background: #f2709c;  fallback for old browsers
+    background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  Chrome 10-25, Safari 5.1-6
+    background: linear-gradient(to right, #ff9472, #f2709c); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+  text-align: center;
+  margin: 20px 50px;
+  padding: 5px;
+}
+
+.recommended-items ul li {
+  list-style-type: none;
+}
+
+.item-info {
+  width: 70%;
+  height: auto;
+  margin: 5px;
+  padding: 5px;
+}
+
+.item-info hr{
+    background-color: white;
+    padding: 2px;
+    border-radius: 2px;
+}
+*/

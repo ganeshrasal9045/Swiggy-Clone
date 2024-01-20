@@ -1,0 +1,84 @@
+{
+  "info": {
+    "id": "63005",
+    "name": "LunchBox - Meals and Thalis",
+    "cloudinaryImageId": "ssdvzukpczydvv1hwwif",
+    "locality": "Sudhakar Thorat Colony",
+    "areaName": "Karve Nagar",
+    "costForTwo": "₹200 for two",
+    "cuisines": [
+      "Biryani",
+      "North Indian",
+      "Punjabi",
+      "Healthy Food",
+      "Desserts",
+      "Beverages"
+    ],
+    "avgRating": 4.2,
+    "parentId": "4925",
+    "avgRatingString": "4.2",
+    "totalRatingsString": "1K+",
+    "sla": {
+      "deliveryTime": 31,
+      "lastMileTravel": 6.7,
+      "serviceability": "SERVICEABLE",
+      "slaString": "31 mins",
+      "lastMileTravelString": "6.7 km",
+      "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+      "nextCloseTime": "2024-01-05 23:59:00",
+      "opened": true
+    },
+    "badges": {
+      "textExtendedBadges": [
+        {
+          "iconId": "guiltfree/GF_Logo_android_3x",
+          "shortDescription": "options available",
+          "fontColor": "#7E808C"
+        }
+      ]
+    },
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+      "entityBadges": {
+        "imageBased": {},
+        "textBased": {},
+        "textExtendedBadges": {
+          "badgeObject": [
+            {
+              "attributes": {
+                "description": "",
+                "fontColor": "#7E808C",
+                "iconId": "guiltfree/GF_Logo_android_3x",
+                "shortDescription": "options available"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "aggregatedDiscountInfoV3": {
+      "header": "₹120 OFF",
+      "subHeader": "ABOVE ₹199",
+      "discountTag": "FLAT DEAL"
+    },
+    "differentiatedUi": {
+      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+      "differentiatedUiMediaDetails": {
+        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+        "lottie": {},
+        "video": {}
+      }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {}
+  },
+  "analytics": {},
+  "cta": {
+    "link": "https://www.swiggy.com/restaurants/lunchbox-meals-and-thalis-sudhakar-thorat-colony-karve-nagar-pune-63005",
+    "type": "WEBLINK"
+  }
+}
