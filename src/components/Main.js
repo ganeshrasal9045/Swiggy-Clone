@@ -24,7 +24,7 @@ const Main = () => {
       const response = await fetch(SWIGGY_API_URL);
 
       const json = await response.json();
-      console.log(json);
+      // console.log(json);
 
       setListOfResto(
         json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
@@ -81,6 +81,7 @@ const Main = () => {
               // setListOfResto(filteredRestaurant);
               setfiteredResto(filteredRestaurant);
               // console.log(filteredRestaurant)
+              setSearchText("");
             }}
           >
             Search
