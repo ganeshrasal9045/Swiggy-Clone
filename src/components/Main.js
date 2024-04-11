@@ -19,12 +19,12 @@ const Main = () => {
     fetchData();
   }, []);
 
-  const fetchData = async () => {
+  const fetchData = async() => {
     try {
       const response = await fetch(SWIGGY_API_URL);
 
       const json = await response.json();
-      // console.log(json);
+      console.log(json);
 
       setListOfResto(
         json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle

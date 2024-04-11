@@ -26,7 +26,7 @@ const Header = () => {
   },[nameBtn])
 
   return (
-    <div className="flex justify-between bg-gray-300 px-4 mx-2 sticky top-0">
+    <div className="flex justify-between bg-gray-300 px-4 mx-2 sticky top-0 z-10">
       <div className="logoContainer">
         <img
           className="w-44  h-28"

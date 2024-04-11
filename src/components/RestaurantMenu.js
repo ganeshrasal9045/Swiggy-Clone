@@ -30,18 +30,18 @@ const RestaurantMenu = () => {
     costForTwoMessage,
     areaName,
     avgRating,
-  } = restoInfo?.cards[0]?.card?.card?.info;
-  // console.log(restoInfo?.cards[0]?.card?.card)
+  } = restoInfo?.cards[2]?.card?.card?.info;
+  // console.log(restoInfo?.cards[2]?.card?.card)
 
   const { itemCards } =
-    restoInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card
+    restoInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card
       ?.card;
   // console.log(itemCards)
 
-  // console.log(restoInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards)
+  console.log(restoInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards)
 
   const categories =
-    restoInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
+    restoInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
       (c) =>
         c.card?.card?.["@type"] ===
         "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
@@ -59,9 +59,9 @@ const RestaurantMenu = () => {
             {areaName}, {sla.lastMileTravelString}
           </p>
 
-          <h4 className="my-2">{feeDetails.message}</h4>
+          {/* <h4 className="my-2">{feeDetails.message}</h4> */}
           <h3 className="my-2 font-bold text-xl">
-            ⏲️ {sla.slaString}{" "}
+            ⏲️ {sla.slaString}
             <span className="ml-2">💰 {costForTwoMessage}</span>
           </h3>
         </div>
